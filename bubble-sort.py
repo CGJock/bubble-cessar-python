@@ -15,7 +15,7 @@ un array a ordenar
 disordered_array = [1,3,5,7,8,2,9,10,4,15]
 
 def sort(array):
-    times_to_run = len(disordered_array)# timestorun sera igual al largo del array
+    times_to_run = len(array)# timestorun sera igual al largo del array
     
     #loop externo que se recorre -1 una cantidad de veces respecto al largo del array ej= (ttr =10 = 10 ttr - 1 = 9)
     for i in range(times_to_run -1):
